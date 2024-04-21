@@ -1,34 +1,7 @@
-Robinson
+webEngineTopy
 ========
 
-A toy web rendering engine written in the Rust language, by Matt Brubeck
-(mbrubeck@limpet.net).
-
-I'm writing this code purely for educational purposes. My goal is to create an
-incomplete but extremely simple engine as a way to learn more about basic
-implementation techniques, *without* worrying about complications like:
-
-* <s>Real-world usability</s>
-* <s>Standards compliance</s>
-* <s>Performance and efficiency</s>
-* <s>Interoperability</s>
-
-These are all important goals, but there are other projects working on them.
-By ignoring them completely, this project can focus on being as simple and
-easy-to-understand as possible.
-
-Why create a simple—but useless—toy rendering engine? Mostly because I
-personally want to learn how to do it. If I succeed, I also hope that other
-people can learn from my code by reading or modifying it, or learn from my
-experience as they set out to build their own toy browser engines.
-
-For more details see [Let's build a browser engine!][blog], a series of
-how-to articles based on this project.
-
-[blog]: http://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html
-
-Status
-------
+A toy web rendering engine written in the Rust language forked from Robinson. 
 
 Currently implemented:
 
@@ -48,7 +21,7 @@ Instructions
 
 1. [Install Rust 1.0 beta or newer.](http://www.rust-lang.org/install.html)
 
-2. Clone the robinson source code from https://github.com/mbrubeck/robinson
+2. Clone the source code. 
 
 3. Run `cargo build` to build robinson, and `cargo run` to run it.
 
